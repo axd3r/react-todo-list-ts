@@ -8,7 +8,7 @@ interface TodoFiltersProps {
 
 const TodoFilters: React.FC<TodoFiltersProps> = ({ current, onChange }) => {
   return (
-    <div className="flex gap-2">
+    <div className="flex justify-center gap-2">
       <Button
         onClick={() => onChange('all')}
         disabled={current === 'all'}

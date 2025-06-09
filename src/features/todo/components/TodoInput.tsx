@@ -19,6 +19,7 @@ const TodoInput: React.FC<TodoInputProps> = ({ onAdd }) => {
   return (
     <form onSubmit={handleSubmit} className="flex gap-2 mb-4">
       <Input
+        className="flex-1"
         placeholder="Nueva tarea"
         value={text}
         onChange={e => setText(e.target.value)}
