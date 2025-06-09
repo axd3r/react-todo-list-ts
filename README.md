@@ -2,23 +2,25 @@
 
 This is a simple to-do list application with support for subtasks, user login, and filtering by status (all, active, completed).
 
-## 🚀 Features
+🔗 [Live Demo on AWS Amplify](https://main.d3rqnua5wpp4it.amplifyapp.com/)
 
-- User login with name and nickname.
-- Create, edit, and delete tasks.
-- Nested subtasks per task.
-- Filter by task status.
-- Task counter.
+## 🚀 Features
+- 🔐 User login with name and nickname
+- ✅ Create, edit, delete task
+
+- 🧩 Nested subtasks per task 
+- 🔍 Filter tasks by status (All, Active, Completed)
+- 🔢 Task counter
 
 ## 🖼️ Screenshots
 
-### Login Screen
+### 🔑 Login Screen
 
 ![Login](./public/TestLogin.png)
 
 ---
 
-### Main Dashboard (To-Do List)
+### 🗂️ Main Dashboard (To-Do List)
 
 ![Dashboard](./public/TestList.png)
 
@@ -26,13 +28,19 @@ This is a simple to-do list application with support for subtasks, user login, a
 
 ## ⚙️ Tech Stack
 
-- React
-- Tailwind CSS
-- Vite
-- React Hook Form + Yup
-- Context API (for managing user state)
+- ⚛️ React
 
-## 📦 Installation
+- 💨 Tailwind CSS
+
+- ⚡ Vite
+
+- 🧠 React Hook Form + Yup (for validation)
+
+- 🧰 Context API (for managing user state)
+
+
+
+## 📦 Getting Started
 
 ```bash
 git clone https://github.com/axd3r/react-todo-list-ts.git
