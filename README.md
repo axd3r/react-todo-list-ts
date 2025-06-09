@@ -2,7 +2,7 @@
 
 This is a simple to-do list application with support for subtasks, user login, and filtering by status (all, active, completed).
 
-🔗 [Live Demo on AWS Amplify](https://main.d3rqnua5wpp4it.amplifyapp.com/)
+🔗 [Live Demo on AWS Amplify](https://main.d1a3i5acn51lum.amplifyapp.com/)
 
 ## 🚀 Features
 - 🔐 User login with name and nickname
