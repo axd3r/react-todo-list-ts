@@ -2,6 +2,7 @@ import React from 'react';
 import { Subtask } from '../types/types';
 import { motion } from 'framer-motion';
 import { CircleX } from 'lucide-react';
+import Checkbox from '../../../components/Checkbox';
 
 interface SubtaskItemProps {
   subtask: Subtask;
@@ -18,7 +19,7 @@ const SubtaskItem: React.FC<SubtaskItemProps> = ({ subtask, onToggle, onDelete }
       exit={{ opacity: 0, y: -5 }}
     >
       <label className="flex items-center gap-2 flex-1">
-        <input type="checkbox" checked={subtask.completed} onChange={onToggle} />
+        <Checkbox checked={subtask.completed} onChange={onToggle} />
         <span className={subtask.completed ? 'line-through text-gray-400' : ''}>
           {subtask.text}
         </span>
